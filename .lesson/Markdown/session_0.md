@@ -43,3 +43,15 @@ Please regard this document as an update on the Syllabus and the source of truth
 | S16 | HW16 | In person | Apr 25th 2022 | May 9th 2022 |
 | S17 | HW17 | In person | May 9th 2022 | May 23th 2022 |
 | S18 | HW18 | Final | May 23th 2022 | - |
+
+### Tools
+
+Python is one of the most popular programming languages and is therefore available in most general-purpose IDEs (Integrated Development Environments). We will start using [Replit](www.replit.com), which is a modern web IDE with peer programming features; since it is somehow experimental, we will list here a few alternatives in case something goes wrong:
+
+- [VSCode web version](https://vscode.dev/)
+- [VSCode desktop version](https://code.visualstudio.com/download)
+- [PyCharm](https://www.jetbrains.com/pycharm/download/#section=mac)
+- [Anaconda](https://www.anaconda.com/products/individual)
+- [Gitpod](https://www.gitpod.io/)
+
+These are all valid alternatives, each with merits on its own, although the recommendation is to stick to Replit or VSCode for practical purposes.
