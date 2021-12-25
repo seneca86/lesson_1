@@ -13,4 +13,12 @@ Please regard this document as an update on the Syllabus and the source of truth
 ### Grade calculation details
 (Might be subjected to minor modification)
 
+| Component | Weight | Comments |
+|-----------|--------|----------|
+| Class attendance | Mandatory | Must be higher than 70% in order to pass (IEU requirement)
+| Class participation | 10% | Will be reflected in the intensity and perseverance during in-class exercises
+| Homework | 20% | Must be done individually |
+| Assynchronous class | 10% | Will be treated as homework |
+| Midterm | 30% | Individually taken in class in session 10 |
+| Final | 30% | Individually taken in class in session 18 |
 
