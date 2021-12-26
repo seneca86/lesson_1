@@ -68,4 +68,24 @@ There are various ways to verify the raising popularity of Python, such as:
 - It is the official teaching language for high schools in France
 
 More importantly, there are fundamental reasons to explain this popularity:
-- 
+- Python is reasable, which makes it easier to learn and remember
+- Python is a _dynamic_ language or _scripting_ language, which means that it does not force you to declare variable types before using them
+- Python is terse, meaning that programs in Python will me in general shorter than their equivalents in a static language
+- Python is _free_, in the sense that you do not have to pay to use it and that you can use it for whatever you wish
+- Python has 'batteries included' as commonly expressed, meaning that there is plenty of useful software both in its standard library and in third-party code
+
+However, there are situations in which Python may not be the best option. This occurs when a problem is CPU-bound, in which case a low-level such as C++, C#, or Java may work better.
+
+### Python versions
+
+Python has been around since 1991, created by Guido van Rossum as a successor to the ABC programming language. In 2000, Python 2 was released with a few improvements, and in 2008 it was the turn of Python 3.
+
+Each of these major versions include "hard fixes", which are incompatible _backwards_. Conversion from Python 2 to 3 has been relatively painful but successful, and we will be using Python 3 in the course.
+
+### Ways to run Python
+Similarly to R, we will run Python with a combination of an _interactive interpreter_, which we will call "the console", and text files that we will execute. These text files will have the termination ".py".
+
+While using Repl.it or other web-based IDEs we will sometimes need to use the "Shell", which is an interface with the underlying operating system (typically Linux). We will not focus on it since it could cover a course on its own, although we will occasionally comment on it. In the Shell, we can type "python" and access a primitive version of the interactive interpreter that we have in the console.
+
+The Console works in a way such as it reads, evaluates, and prints in loops. This type of interface is for that reason called "REPL", and the reason behind the name of repl.it.
+
