@@ -25,3 +25,19 @@ Let's see our first Python program to get a glimpse of its look and feel:
 for day in ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']:
     print(f'{day} is a day of the week')
 ```
+
+This short loop already conveys some of the properties of Python, such as readability and expressiveness.
+
+Another tiny program follows, that lists the so-called "Five Good Emperors" of the Roman Empire and selects one of them:
+
+```python
+emperors = [
+    'Nerva',
+    'Trajan',
+    'Hadrian',
+    'Antoninus Pius',
+    'Marcus Aurelius',
+]
+
+print(emperors[3])
+```
