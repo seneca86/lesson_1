@@ -38,6 +38,34 @@ emperors = [
     'Antoninus Pius',
     'Marcus Aurelius',
 ]
-
 print(emperors[3])
 ```
+
+Note that we have used a Python structure called `list`, which is defined by enclosing square brackets. The word `emperors` is a _variable_ that provides the list with a name so that we can manipulate it.
+
+Also note that the index `3` returns the fourth element of the list, which means that the first element is accessed via the index `0`. This is a Python convention shared with other programming languages, such as Fortran. You may think of the index as an offset rather than as a position.
+
+A pivotal data structure in Python that we will be back to is the _dictionary_. A dictionary is a collection of unique _keys_ and associated _values_. We can build a dictionary that stores e.g. names of books and its corresponding authors:
+
+```python
+books = {
+    'Anna Karenina': 'Leo Tolstoy',
+    'Meditations': 'Marcus Aurelius',
+    'The Prince': 'Machiavelli',
+    'Paradise Lost': 'John Milton',
+    'At the mountains of Madness': 'H.P. Lovecraft',
+}
+book = 'At the mountains of Madness'
+print(f'{book} was written by {books[book]}'
+```
+
+A dictionary is defined with curly brackets and a colon that associates each key with each value. We will get back to dictionaries later in the course.
+
+### Python versus other programming languages
+There are various ways to verify the raising popularity of Python, such as:
+- It is the fastest-growing major programming language, according to the TIOBE index
+- It is the most popular introductory computer science courses at the top US Colleges
+- It is the official teaching language for high schools in France
+
+More importantly, there are fundamental reasons to explain this popularity:
+- 

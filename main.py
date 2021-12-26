@@ -10,3 +10,14 @@ emperors = [
 ]
 
 print(emperors[3])
+
+books = {
+    'Anna Karenina': 'Leo Tolstoy',
+    'Meditations': 'Marcus Aurelius',
+    'The Prince': 'Machiavelli',
+    'Paradise Lost': 'John Milton',
+    'At the mountains of Madness': 'H.P. Lovecraft',
+}
+book = 'At the mountains of Madness'
+print(f'{book} was written by {books[book]}')
+
