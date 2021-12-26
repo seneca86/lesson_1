@@ -21,3 +21,4 @@ books = {
 book = 'At the mountains of Madness'
 print(f'{book} was written by {books[book]}')
 
+import this

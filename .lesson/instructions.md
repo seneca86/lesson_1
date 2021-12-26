@@ -85,7 +85,23 @@ Each of these major versions include "hard fixes", which are incompatible _backw
 ### Ways to run Python
 Similarly to R, we will run Python with a combination of an _interactive interpreter_, which we will call "the console", and text files that we will execute. These text files will have the termination ".py".
 
-While using Repl.it or other web-based IDEs we will sometimes need to use the "Shell", which is an interface with the underlying operating system (typically Linux). We will not focus on it since it could cover a course on its own, although we will occasionally comment on it. In the Shell, we can type "python" and access a primitive version of the interactive interpreter that we have in the console.
+While using Repl.it or other web-based IDEs we will sometimes need to use the "Shell", which is an interface with the underlying operating system (typically Linux). We will not focus on it since it could cover a course on its own, although we will occasionally comment on it. In the Shell, we can type "python" and access a primitive version of the interactive interpreter that we have in the console; you may also execute the programs that we write in the editor by doing:
+
+```bash
+$ python main.py
+```
+
+The `$` sign (sometimes `>` is used instead) is called "the prompt" and signals that the system is "waiting" for you to type a command like `python`. 
 
 The Console works in a way such as it reads, evaluates, and prints in loops. This type of interface is for that reason called "REPL", and the reason behind the name of repl.it.
 
+Alternatively, one can write Python code into a .py file and run it. In most interpreters, the "state" of the program can be retrieved in the console, i.e. one can run a program consisting of `a=1` and subsequently retrieve the value of `a` in the console. This is a typical (though not the only) way of developing in Python, and the one we will use mostly during the course.
+
+### The Zen of python
+Like most languages, Python was designed with certain principles in mind. They can be retrieved at any time with the following command:
+
+```python
+import this
+```
+
+These are principles that may sound cryptic now but will make sense as we move forward with the course.
