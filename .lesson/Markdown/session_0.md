@@ -55,3 +55,13 @@ Python is one of the most popular programming languages and is therefore availab
 - [Gitpod](https://www.gitpod.io/)
 
 These are all valid alternatives, each with merits on its own, although the recommendation is to stick to Replit or VSCode for practical purposes.
+
+### Bibliography
+
+Luckily enough, there are excellent Python books out there. We will borrow heavily from them, so credit is due, particularly to the following ones:
+- _Introducing Python_, (O'Reilly), Bill Lubanovic
+- _Python for data analysis_ (O'Reilly), Wes McKinney
+- _Python Cookbook_, (O'Reilly), David Beazley and Brian K. Jones
+- _Leaning Python_, (O'Reilly), Mark Lutz
+
+Also, I encourage you to check the [Python official documentation](https://docs.python.org/3/)
