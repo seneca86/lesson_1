@@ -20,4 +20,8 @@ A programming language is not that different from other patterns or languages th
 - an expected _result_
 
 ### Introducing Python
-
+Let's see our first Python program to get a glimpse of its look and feel:
+```Python
+for day in ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']:
+    print('')
+```
